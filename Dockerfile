@@ -15,7 +15,7 @@ COPY log4j.xml /
 COPY start2.sh /
 
 EXPOSE 9081
-#don't expose any other port
+#don't expose any other port now
 
 CMD ./start2.sh
 #CMD [ "./start2.sh" ]
